@@ -1,0 +1,13 @@
+{
+  "name": "Conventional Comments",
+  "description": "Helps you add conventional comments to pull requests",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*/pull/*"],
+      "js": ["inject.js"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"]
+}
