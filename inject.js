@@ -31,10 +31,20 @@ function getConventionalCommentElement() {
 
   element.innerHTML = `
     <div style="margin: 10px;">
+      <hr />
       <p>
         Use 
         <a href="https://conventionalcomments.org/" target="_blank">Conventional Comments</a>
+        (labels: praise, nitpick, suggestion, issue, question, thought, chore):
       </p>
+      <hr />
+      <code style="white-space: break-spaces;">&lt;label&gt; [decorations]: &lt;subject&gt;
+
+[discussion]</code>
+      <hr />
+      <code style="white-space: break-spaces;">issue (ux,non-blocking): These buttons should be red, but let's handle this in a follow-up.
+
+Some additional comments can go here if necessary</code>
     </div>
   `;
 

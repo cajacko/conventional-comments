@@ -7,5 +7,5 @@ To develop locally see: <https://developer.chrome.com/docs/extensions/mv3/getsta
 ## Roadmap
 
 - ~~v1 - GitHub only, just shows a reminder above the comment input~~ (done)
-- v2 - Show templates of the format
+- ~~v2 - Show templates of the format~~ (done)
 - v3 - Helper form that injects the formatted text to the first line of the comment
